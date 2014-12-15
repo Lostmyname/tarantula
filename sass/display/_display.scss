@@ -1,0 +1,36 @@
+@mixin display($prefix) {
+    
+    /*
+     * Display
+     */
+
+    .#{$prefix}display-block {
+        display: block;
+    }
+
+    .#{$prefix}display-inline {
+        display: inline-block;
+    }
+    
+    .#{$prefix}display-none {
+        display: none;
+    }
+
+    .#{$prefix}full-width {
+        width: 100%;
+    }
+
+    .#{$prefix}wide {
+        width: 75%;
+    }
+
+    .#{$prefix}max-width {
+        max-width: 100%;
+    }
+
+    .#{$prefix}full-height {
+        height: 100%;
+    }
+
+
+}

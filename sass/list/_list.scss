@@ -1,0 +1,11 @@
+@mixin list($prefix) {
+
+  .#{$prefix}list-inline {
+    margin: 0;
+
+    > li {
+      display: inline-block;
+    }
+  }
+  
+}

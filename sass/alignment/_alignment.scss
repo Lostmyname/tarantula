@@ -1,0 +1,35 @@
+@mixin alignment($prefix) {
+
+    /*
+     * Alignment
+     */
+
+    .#{$prefix}aligned-left {
+        float: left;
+    }
+
+    .#{$prefix}aligned-right {
+        float: right;
+    }
+
+    .#{$prefix}aligned-none {
+        float: none;
+    }
+
+    .#{$prefix}aligned-center {
+        margin: 0 auto;
+    }
+
+    .#{$prefix}inline-aligned-center {
+        text-align: center;
+    }
+
+    .#{$prefix}inline-aligned-left {
+        text-align: left;
+    }
+
+    .#{$prefix}inline-aligned-right {
+        text-align: right;
+    }
+
+}

@@ -1,0 +1,31 @@
+//base
+$font-size-base:            16px !default;
+
+
+
+
+// breakpoints 
+$break-lg:                  1224px !default;
+$break-md:                  992px !default;
+$break-sm:                  768px !default;
+$break-xs:                  320px !default;
+
+
+$device-media-expressions: (
+  'lg' '(max-width: 1024px)',
+  'md' '(max-width: 992px)',
+  'sm' '(max-width: 768px)',
+  'xs' '(max-width: 320px)'
+)!default;
+
+
+
+
+// layout sizing
+$xxs:                       rem(3) !default;
+$xs:                        rem(5) !default;
+$sm:                        rem(10) !default;
+$md:                        rem(20) !default;
+$lg:                        rem(40) !default;
+$xl:                        rem(80) !default;
+$xxl:                       rem(120) !default;

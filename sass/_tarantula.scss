@@ -1,0 +1,46 @@
+@import 'variables';
+
+@import 'display/display';
+@import 'position/position';
+@import 'alignment/alignment';
+@import 'margin/margin';
+@import 'padding/padding';
+@import 'list/list';
+//@import 'border/border';
+
+
+
+@mixin layouts($prefix) {
+
+    @include display($prefix);
+
+    @include position($prefix);
+
+    @include alignment($prefix);
+
+    @include margin($prefix);
+
+    @include padding($prefix);
+
+    @include list($prefix);
+
+    //@include border($prefix);
+
+}
+
+
+@include layouts('');
+
+/*
+ * Loop through the breakpoints we've specified and generate styles for
+ * all our layout helpers, prefixing each with the size we are currently
+ * on in the loop
+ */
+@each $breakpoint in $device-media-expressions {
+  $size: nth($breakpoint, 1);
+  $mq: nth($breakpoint, 2);
+
+  @media screen and #{$mq} {
+    @include layouts('#{$size}-');
+  }
+}
