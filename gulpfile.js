@@ -45,7 +45,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./demo/build'));
 });
 
-gulp.task('default', ['js', 'sass'], function () {
+gulp.task('default', ['sass'], function () {
   dieOnError = false;
 
   browserSync.init([

@@ -2,17 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Skeleton Component</title>
+  <title>Tarantula</title>
 
-  <link rel="stylesheet" href="build/styles.css">
-  <link href="//d12fm4vsc5tls2.cloudfront.net/assets/eagle/stylesheets/main/main-154852a1ff47e9a91b94e79f28f3b0e4.css" media="screen" rel="stylesheet" />
+  <link href="build/demo.css" media="screen" rel="stylesheet" />
 </head>
 <body>
 
-  <h1>Your HTML here</h1>
+  <div class="container">
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="build/bundle.js"></script>
+    <div class="row">
+      <h1>Tarantula</h1>
+    </div>
+    
+    <div class="row">
+      <h2>Basic grid</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+      <div class="col-lg-1">.col-lg-1</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">.col-lg-8</div>
+      <div class="col-lg-4">.col-lg-4</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">.col-lg-4</div>
+      <div class="col-lg-4">.col-lg-4</div>
+      <div class="col-lg-4">.col-lg-4</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">.col-lg-6</div>
+      <div class="col-lg-6">.col-lg-6</div>
+    </div>
+
+    <div class="row">
+      <h2>Mobile and Desktop</h2>
+    </div>
+
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-sm-6 col-lg-8 col-xs-12">.col-sm-12 .col-lg-8 .col-xs-12</div>
+      <div class="col-sm-6 col-lg-4 col-xs-12">.col-sm-6 .col-lg-4 .col-xs-12</div>
+    </div>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+      <div class="col-sm-12 col-lg-4 col-xs-12">.col-sm-6 .col-lg-4 .col-xs-12</div>
+      <div class="col-sm-12 col-lg-4 col-xs-12">.col-sm-6 .col-lg-4 .col-xs-12</div>
+      <div class="col-sm-12 col-lg-4 col-xs-12">.col-sm-6 .col-lg-4 .col-xs-12</div>
+    </div>
+
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">.col-sm-6 .col-xs-12</div>
+      <div class="col-sm-6 col-xs-12">.col-sm-6 .col-xs-12</div>
+    </div>
+
+
+
+
+  </div>
 
 </body>
 </html>

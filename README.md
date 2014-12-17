@@ -1,6 +1,16 @@
-# YOUR COMPONENT HERE
+# Tarantula
 
-C'mon, write a readme.
+Tarantula is a set of layout classes which allow for super quick positioning of elements.
+
+It contains a grid framework (a fork of the Bootstrap grid) and helpers for the following areas:
+
+ - Alignment
+ - Borders
+ - Display
+ - Lists
+ - Margins
+ - Padding
+ - Position
 
 ## Installation
 
