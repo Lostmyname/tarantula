@@ -1,6 +1,6 @@
-@mixin list($prefix) {
+@mixin list($breakpoint) {
 
-  .#{$prefix}list-inline {
+  .list-inline#{$breakpoint} {
     margin: 0;
 
     > li {

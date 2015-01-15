@@ -1,34 +1,34 @@
-@mixin display($prefix) {
+@mixin display($breakpoint) {
     
     /*
      * Display
      */
 
-    .#{$prefix}display-block {
+    .display-block#{$breakpoint} {
         display: block;
     }
 
-    .#{$prefix}display-inline {
+    .display-inline#{$breakpoint} {
         display: inline-block;
     }
     
-    .#{$prefix}display-none {
+    .display-none#{$breakpoint} {
         display: none;
     }
 
-    .#{$prefix}full-width {
+    .full-width#{$breakpoint} {
         width: 100%;
     }
 
-    .#{$prefix}wide {
+    .wide#{$breakpoint} {
         width: 75%;
     }
 
-    .#{$prefix}max-width {
+    .max-width#{$breakpoint} {
         max-width: 100%;
     }
 
-    .#{$prefix}full-height {
+    .full-height#{$breakpoint} {
         height: 100%;
     }
 

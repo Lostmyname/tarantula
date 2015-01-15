@@ -1,18 +1,18 @@
-@mixin position($prefix) {
+@mixin position($breakpoint) {
 
     /*
      * Position type
      */
 
-    .#{$prefix}pos-fixed {
+    .pos-fixed#{$breakpoint} {
         position: fixed;
     }
 
-    .#{$prefix}pos-absolute {
+    .pos-absolute#{$breakpoint} {
         position: absolute;
     }
 
-    .#{$prefix}pos-relative {
+    .pos-relative#{$breakpoint} {
         position: relative;
     }
 

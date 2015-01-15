@@ -15,21 +15,21 @@
 
 
 
-@mixin layouts($prefix) {
+@mixin layouts($breakpoint) {
 
-    @include display($prefix);
+    @include display("-on-#{$breakpoint}");
 
-    @include position($prefix);
+    @include position("-on-#{$breakpoint}");
 
-    @include alignment($prefix);
+    @include alignment("-on-#{$breakpoint}");
 
-    @include margin($prefix);
+    @include margin("-on-#{$breakpoint}");
 
-    @include padding($prefix);
+    @include padding("-on-#{$breakpoint}");
 
-    @include list($prefix);
+    @include list("-on-#{$breakpoint}");
 
-    @include border($prefix);
+    @include border("-on-#{$breakpoint}");
 
 }
 

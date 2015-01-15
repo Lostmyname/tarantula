@@ -1,34 +1,34 @@
-@mixin alignment($prefix) {
+@mixin alignment($breakpoint) {
 
     /*
      * Alignment
      */
 
-    .#{$prefix}align-left {
+    .align-left#{$breakpoint} {
         float: left;
     }
 
-    .#{$prefix}align-right {
+    .align-right#{$breakpoint} {
         float: right;
     }
 
-    .#{$prefix}align-none {
+    .align-none#{$breakpoint} {
         float: none;
     }
 
-    .#{$prefix}align-center {
+    .align-center#{$breakpoint} {
         margin: 0 auto;
     }
 
-    .#{$prefix}inline-align-center {
+    .inline-align-center#{$breakpoint} {
         text-align: center;
     }
 
-    .#{$prefix}inline-align-left {
+    .inline-align-left#{$breakpoint} {
         text-align: left;
     }
 
-    .#{$prefix}inline-align-right {
+    .inline-align-right#{$breakpoint} {
         text-align: right;
     }
 
