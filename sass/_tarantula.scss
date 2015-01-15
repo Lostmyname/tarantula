@@ -17,19 +17,19 @@
 
 @mixin layouts($breakpoint) {
 
-    @include display("-on-#{$breakpoint}");
+    @include display("#{$breakpoint}");
 
-    @include position("-on-#{$breakpoint}");
+    @include position("#{$breakpoint}");
 
-    @include alignment("-on-#{$breakpoint}");
+    @include alignment("#{$breakpoint}");
 
-    @include margin("-on-#{$breakpoint}");
+    @include margin("#{$breakpoint}");
 
-    @include padding("-on-#{$breakpoint}");
+    @include padding("#{$breakpoint}");
 
-    @include list("-on-#{$breakpoint}");
+    @include list("#{$breakpoint}");
 
-    @include border("-on-#{$breakpoint}");
+    @include border("#{$breakpoint}");
 
 }
 
@@ -46,6 +46,6 @@
   $mq: nth($breakpoint, 2);
 
   @media screen and #{$mq} {
-    @include layouts('#{$size}-');
+    @include layouts('-on-#{$size}');
   }
 }
