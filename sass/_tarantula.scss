@@ -28,7 +28,7 @@
 
     @include list($prefix);
 
-    //@include border($prefix);
+    @include border($prefix);
 
 }
 
