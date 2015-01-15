@@ -20,7 +20,6 @@ $device-media-expressions: (
 
 
 
-
 // layout sizing
 $xxs:                       rem(3) !default;
 $xs:                        rem(5) !default;
@@ -29,6 +28,8 @@ $md:                        rem(20) !default;
 $lg:                        rem(40) !default;
 $xl:                        rem(80) !default;
 $xxl:                       rem(120) !default;
+
+
 
 // border sizing 
 $border-xxs:                     1px !default;
