@@ -4,28 +4,28 @@
      * Margin helpers
      */
 
-    .xxs-mar-on-#{$breakpoint} {
+    .xxs-mar#{$breakpoint} {
         margin: $xxs;
     }
-    .xs-mar-on-#{$breakpoint} {
+    .xs-mar#{$breakpoint} {
         margin: $xs;
     }
-    .sm-mar-on-#{$breakpoint} {
+    .sm-mar#{$breakpoint} {
         margin: $sm;
     }
-    .md-mar-on-#{$breakpoint} {
+    .md-mar#{$breakpoint} {
         margin: $md;
     }
-    .lg-mar-on-#{$breakpoint} {
+    .lg-mar#{$breakpoint} {
         margin: $lg;
     }
-    .xl-mar-on-#{$breakpoint} {
+    .xl-mar#{$breakpoint} {
         margin: $xl;
     }
-    .xxl-mar-on-#{$breakpoint} {
+    .xxl-mar#{$breakpoint} {
         margin: $xxl;
     }
-    .no-mar-on-#{$breakpoint} {
+    .no-mar#{$breakpoint} {
         margin: 0;
     }
 
@@ -33,148 +33,148 @@
 
 
 
-    .no-mar-l-on-#{$breakpoint} {
+    .no-mar-l#{$breakpoint} {
         margin-left: 0;
     }
-    .xxs-mar-l-on-#{$breakpoint} {
+    .xxs-mar-l#{$breakpoint} {
         margin-left: $xxs;
     }
-    .xs-mar-l-on-#{$breakpoint} {
+    .xs-mar-l#{$breakpoint} {
         margin-left: $xs;
     }
-    .sm-mar-l-on-#{$breakpoint} {
+    .sm-mar-l#{$breakpoint} {
         margin-left: $sm;
     }
-    .md-mar-l-on-#{$breakpoint} {
+    .md-mar-l#{$breakpoint} {
         margin-left: $md;
     }
-    .lg-mar-l-on-#{$breakpoint} {
+    .lg-mar-l#{$breakpoint} {
         margin-left: $lg;
     }
-    .xl-mar-l-on-#{$breakpoint} {
+    .xl-mar-l#{$breakpoint} {
         margin-left: $xl;
     }
-    .xxl-mar-l-on-#{$breakpoint} {
+    .xxl-mar-l#{$breakpoint} {
         margin-left: $xxl;
     }
 
-    .neg-xxs-mar-l-on-#{$breakpoint} {
+    .neg-xxs-mar-l#{$breakpoint} {
         margin-left: -$xxs;
     }
-    .neg-xs-mar-l-on-#{$breakpoint} {
+    .neg-xs-mar-l#{$breakpoint} {
         margin-left: -$xs;
     }
-    .neg-sm-mar-l-on-#{$breakpoint} {
+    .neg-sm-mar-l#{$breakpoint} {
         margin-left: -$sm;
     }
-    .neg-md-mar-l-on-#{$breakpoint} {
+    .neg-md-mar-l#{$breakpoint} {
         margin-left: -$md;
     }
-    .neg-lg-mar-l-on-#{$breakpoint} {
+    .neg-lg-mar-l#{$breakpoint} {
         margin-left: -$lg;
     }
-    .neg-xl-mar-l-on-#{$breakpoint} {
+    .neg-xl-mar-l#{$breakpoint} {
         margin-left: -$xl;
     }
-    .neg-xxl-mar-l-on-#{$breakpoint} {
+    .neg-xxl-mar-l#{$breakpoint} {
         margin-left: -$xxl;
     }
 
 
-    .no-mar-b-on-#{$breakpoint} {
-        margin-bop: 0;
+    .no-mar-t#{$breakpoint} {
+        margin-top: 0;
     }
-    .xxs-mar-b-on-#{$breakpoint} {
-        margin-bop: $xxs;
+    .xxs-mar-t#{$breakpoint} {
+        margin-top: $xxs;
     }
-    .xs-mar-b-on-#{$breakpoint} {
-        margin-bop: $xs;
+    .xs-mar-t#{$breakpoint} {
+        margin-top: $xs;
     }
-    .sm-mar-b-on-#{$breakpoint} {
-        margin-bop: $sm;
+    .sm-mar-t#{$breakpoint} {
+        margin-top: $sm;
     }
-    .md-mar-b-on-#{$breakpoint} {
-        margin-bop: $md;
+    .md-mar-t#{$breakpoint} {
+        margin-top: $md;
     }
-    .lg-mar-b-on-#{$breakpoint} {
-        margin-bop: $lg;
+    .lg-mar-t#{$breakpoint} {
+        margin-top: $lg;
     }
-    .xl-mar-b-on-#{$breakpoint} {
-        margin-bop: $xl;
+    .xl-mar-t#{$breakpoint} {
+        margin-top: $xl;
     }
-    .xxl-mar-b-on-#{$breakpoint} {
-        margin-bop: $xxl;
-    }
-
-    .neg-xxs-mar-b-on-#{$breakpoint} {
-        margin-bop: -$xxs;
-    }
-    .neg-xs-mar-b-on-#{$breakpoint} {
-        margin-bop: -$xs;
-    }
-    .neg-sm-mar-b-on-#{$breakpoint} {
-        margin-bop: -$sm;
-    }
-    .neg-md-mar-b-on-#{$breakpoint} {
-        margin-bop: -$md;
-    }
-    .neg-bg-mar-b-on-#{$breakpoint} {
-        margin-bop: -$lg;
-    }
-    .neg-xl-mar-b-on-#{$breakpoint} {
-        margin-bop: -$xl;
-    }
-    .neg-xxl-mar-b-on-#{$breakpoint} {
-        margin-bop: -$xxl;
+    .xxl-mar-t#{$breakpoint} {
+        margin-top: $xxl;
     }
 
+    .neg-xxs-mar-t#{$breakpoint} {
+        margin-top: -$xxs;
+    }
+    .neg-xs-mar-t#{$breakpoint} {
+        margin-top: -$xs;
+    }
+    .neg-sm-mar-t#{$breakpoint} {
+        margin-top: -$sm;
+    }
+    .neg-md-mar-t#{$breakpoint} {
+        margin-top: -$md;
+    }
+    .neg-bg-mar-t#{$breakpoint} {
+        margin-top: -$lg;
+    }
+    .neg-xl-mar-t#{$breakpoint} {
+        margin-top: -$xl;
+    }
+    .neg-xxl-mar-t#{$breakpoint} {
+        margin-top: -$xxl;
+    }
 
 
 
-    .no-mar-r-on-#{$breakpoint} {
+
+    .no-mar-r#{$breakpoint} {
         margin-right: 0;
     }
-    .xxs-mar-r-on-#{$breakpoint} {
+    .xxs-mar-r#{$breakpoint} {
         margin-right: $xxs;
     }
-    .xs-mar-r-on-#{$breakpoint} {
+    .xs-mar-r#{$breakpoint} {
         margin-right: $xs;
     }
-    .sm-mar-r-on-#{$breakpoint} {
+    .sm-mar-r#{$breakpoint} {
         margin-right: $sm;
     }
-    .md-mar-r-on-#{$breakpoint} {
+    .md-mar-r#{$breakpoint} {
         margin-right: $md;
     }
-    .lg-mar-r-on-#{$breakpoint} {
+    .lg-mar-r#{$breakpoint} {
         margin-right: $lg;
     }
-    .xl-mar-r-on-#{$breakpoint} {
+    .xl-mar-r#{$breakpoint} {
         margin-right: $xl;
     }
-    .xxl-mar-r-on-#{$breakpoint} {
+    .xxl-mar-r#{$breakpoint} {
         margin-right: $xxl;
     }
 
-    .neg-xxs-mar-r-on-#{$breakpoint} {
+    .neg-xxs-mar-r#{$breakpoint} {
         margin-right: -$xxs;
     }
-    .neg-xs-mar-r-on-#{$breakpoint} {
+    .neg-xs-mar-r#{$breakpoint} {
         margin-right: -$xs;
     }
-    .neg-sm-mar-r-on-#{$breakpoint} {
+    .neg-sm-mar-r#{$breakpoint} {
         margin-right: -$sm;
     }
-    .neg-md-mar-r-on-#{$breakpoint} {
+    .neg-md-mar-r#{$breakpoint} {
         margin-right: -$md;
     }
-    .neg-rg-mar-r-on-#{$breakpoint} {
+    .neg-rg-mar-r#{$breakpoint} {
         margin-right: -$lg;
     }
-    .neg-xl-mar-r-on-#{$breakpoint} {
+    .neg-xl-mar-r#{$breakpoint} {
         margin-right: -$xl;
     }
-    .neg-xxl-mar-r-on-#{$breakpoint} {
+    .neg-xxl-mar-r#{$breakpoint} {
         margin-right: -$xxl;
     }
 
@@ -182,50 +182,50 @@
 
 
 
-    .no-mar-b-on-#{$breakpoint} {
+    .no-mar-b#{$breakpoint} {
         margin-bottom: 0;
     }
-    .xxs-mar-b-on-#{$breakpoint} {
+    .xxs-mar-b#{$breakpoint} {
         margin-bottom: $xxs;
     }
-    .xs-mar-b-on-#{$breakpoint} {
+    .xs-mar-b#{$breakpoint} {
         margin-bottom: $xs;
     }
-    .sm-mar-b-on-#{$breakpoint} {
+    .sm-mar-b#{$breakpoint} {
         margin-bottom: $sm;
     }
-    .md-mar-b-on-#{$breakpoint} {
+    .md-mar-b#{$breakpoint} {
         margin-bottom: $md;
     }
-    .lg-mar-b-on-#{$breakpoint} {
+    .lg-mar-b#{$breakpoint} {
         margin-bottom: $lg;
     }
-    .xl-mar-b-on-#{$breakpoint} {
+    .xl-mar-b#{$breakpoint} {
         margin-bottom: $xl;
     }
-    .xxl-mar-b-on-#{$breakpoint} {
+    .xxl-mar-b#{$breakpoint} {
         margin-bottom: $xxl;
     }
 
-    .neg-xxs-mar-b-on-#{$breakpoint} {
+    .neg-xxs-mar-b#{$breakpoint} {
         margin-bottom: -$xxs;
     }
-    .neg-xs-mar-b-on-#{$breakpoint} {
+    .neg-xs-mar-b#{$breakpoint} {
         margin-bottom: -$xs;
     }
-    .neg-sm-mar-b-on-#{$breakpoint} {
+    .neg-sm-mar-b#{$breakpoint} {
         margin-bottom: -$sm;
     }
-    .neg-md-mar-b-on-#{$breakpoint} {
+    .neg-md-mar-b#{$breakpoint} {
         margin-bottom: -$md;
     }
-    .neg-bg-mar-b-on-#{$breakpoint} {
+    .neg-bg-mar-b#{$breakpoint} {
         margin-bottom: -$lg;
     }
-    .neg-xl-mar-b-on-#{$breakpoint} {
+    .neg-xl-mar-b#{$breakpoint} {
         margin-bottom: -$xl;
     }
-    .neg-xxl-mar-b-on-#{$breakpoint} {
+    .neg-xxl-mar-b#{$breakpoint} {
         margin-bottom: -$xxl;
     }
 

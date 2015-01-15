@@ -21,191 +21,201 @@
      * Position values
      */
 
-    .#{$prefix}pos-l-none {
+
+
+    .no-l#{$breakpoint} {
         left: 0;
     }
-    .#{$prefix}pos-l-xs {
+    .xxs-l#{$breakpoint} {
+        left: $xxs;
+    }
+    .xs-l#{$breakpoint} {
         left: $xs;
     }
-    .#{$prefix}pos-l-sm {
+    .sm-l#{$breakpoint} {
         left: $sm;
     }
-    .#{$prefix}pos-l-md {
+    .md-l#{$breakpoint} {
         left: $md;
     }
-    .#{$prefix}pos-l-lg {
+    .lg-l#{$breakpoint} {
         left: $lg;
     }
-    .#{$prefix}pos-l-xl {
+    .xl-l#{$breakpoint} {
         left: $xl;
     }
-    .#{$prefix}pos-xxl {
+    .xxl-l#{$breakpoint} {
         left: $xxl;
     }
 
-    .#{$prefix}pos-l-n-xxs {
+    .neg-xxs-l#{$breakpoint} {
         left: -$xxs;
     }
-    .#{$prefix}pos-l-n-xs {
+    .neg-xs-l#{$breakpoint} {
         left: -$xs;
     }
-    .#{$prefix}pos-l-n-sm {
+    .neg-sm-l#{$breakpoint} {
         left: -$sm;
     }
-    .#{$prefix}pos-l-n-md {
+    .neg-md-l#{$breakpoint} {
         left: -$md;
     }
-    .#{$prefix}pos-l-n-lg {
+    .neg-lg-l#{$breakpoint} {
         left: -$lg;
     }
-    .#{$prefix}pos-l-n-xl {
+    .neg-xl-l#{$breakpoint} {
         left: -$xl;
     }
-    .#{$prefix}pos-l-n-xxl {
+    .neg-xxl-l#{$breakpoint} {
         left: -$xxl;
     }
 
 
-    .#{$prefix}pos-t-none {
+    .no-t#{$breakpoint} {
         top: 0;
     }
-    .#{$prefix}pos-t-xxs {
+    .xxs-t#{$breakpoint} {
         top: $xxs;
     }
-    .#{$prefix}pos-t-xs {
+    .xs-t#{$breakpoint} {
         top: $xs;
     }
-    .#{$prefix}pos-t-sm {
+    .sm-t#{$breakpoint} {
         top: $sm;
     }
-    .#{$prefix}pos-t-md {
+    .md-t#{$breakpoint} {
         top: $md;
     }
-    .#{$prefix}pos-t-lg {
+    .lg-t#{$breakpoint} {
         top: $lg;
     }
-    .#{$prefix}pos-t-xl {
+    .xl-t#{$breakpoint} {
         top: $xl;
     }
-    .#{$prefix}pos-t-xxl {
+    .xxl-t#{$breakpoint} {
         top: $xxl;
     }
 
-    .#{$prefix}pos-t-n-xxs {
+    .neg-xxs-t#{$breakpoint} {
         top: -$xxs;
     }
-    .#{$prefix}pos-t-n-xs {
+    .neg-xs-t#{$breakpoint} {
         top: -$xs;
     }
-    .#{$prefix}pos-t-n-sm {
+    .neg-sm-t#{$breakpoint} {
         top: -$sm;
     }
-    .#{$prefix}pos-t-n-md {
+    .neg-md-t#{$breakpoint} {
         top: -$md;
     }
-    .#{$prefix}pos-t-n-lg {
+    .neg-bg-t#{$breakpoint} {
         top: -$lg;
     }
-    .#{$prefix}pos-t-n-xl {
+    .neg-xl-t#{$breakpoint} {
         top: -$xl;
     }
-    .#{$prefix}pos-t-n-xxl {
+    .neg-xxl-t#{$breakpoint} {
         top: -$xxl;
     }
 
 
-    .#{$prefix}pos-r-none {
+
+
+    .no-r#{$breakpoint} {
         right: 0;
     }
-    .#{$prefix}pos-r-xxs {
+    .xxs-r#{$breakpoint} {
         right: $xxs;
     }
-    .#{$prefix}pos-r-xs {
+    .xs-r#{$breakpoint} {
         right: $xs;
     }
-    .#{$prefix}pos-r-sm {
+    .sm-r#{$breakpoint} {
         right: $sm;
     }
-    .#{$prefix}pos-r-md {
+    .md-r#{$breakpoint} {
         right: $md;
     }
-    .#{$prefix}pos-r-lg {
+    .lg-r#{$breakpoint} {
         right: $lg;
     }
-    .#{$prefix}pos-r-xl {
+    .xl-r#{$breakpoint} {
         right: $xl;
     }
-    .#{$prefix}pos-r-xxl {
+    .xxl-r#{$breakpoint} {
         right: $xxl;
     }
 
-    .#{$prefix}pos-r-n-xxs {
+    .neg-xxs-r#{$breakpoint} {
         right: -$xxs;
     }
-    .#{$prefix}pos-r-n-xs {
+    .neg-xs-r#{$breakpoint} {
         right: -$xs;
     }
-    .#{$prefix}pos-r-n-sm {
+    .neg-sm-r#{$breakpoint} {
         right: -$sm;
     }
-    .#{$prefix}pos-r-n-md {
+    .neg-md-r#{$breakpoint} {
         right: -$md;
     }
-    .#{$prefix}pos-r-n-lg {
+    .neg-rg-r#{$breakpoint} {
         right: -$lg;
     }
-    .#{$prefix}pos-r-n-xl {
+    .neg-xl-r#{$breakpoint} {
         right: -$xl;
     }
-    .#{$prefix}pos-r-n-xxl {
+    .neg-xxl-r#{$breakpoint} {
         right: -$xxl;
     }
 
 
-    .#{$prefix}pos-b-none {
+
+
+
+    .no-b#{$breakpoint} {
         bottom: 0;
     }
-    .#{$prefix}pos-b-xxs {
+    .xxs-b#{$breakpoint} {
         bottom: $xxs;
     }
-    .#{$prefix}pos-b-xs {
+    .xs-b#{$breakpoint} {
         bottom: $xs;
     }
-    .#{$prefix}pos-b-sm {
+    .sm-b#{$breakpoint} {
         bottom: $sm;
     }
-    .#{$prefix}pos-b-md {
+    .md-b#{$breakpoint} {
         bottom: $md;
     }
-    .#{$prefix}pos-b-lg {
+    .lg-b#{$breakpoint} {
         bottom: $lg;
     }
-    .#{$prefix}pos-b-xl {
+    .xl-b#{$breakpoint} {
         bottom: $xl;
     }
-    .#{$prefix}pos-b-xxl {
+    .xxl-b#{$breakpoint} {
         bottom: $xxl;
     }
 
-    .#{$prefix}pos-b-n-xxs {
+    .neg-xxs-b#{$breakpoint} {
         bottom: -$xxs;
     }
-    .#{$prefix}pos-b-n-xs {
+    .neg-xs-b#{$breakpoint} {
         bottom: -$xs;
     }
-    .#{$prefix}pos-b-n-sm {
+    .neg-sm-b#{$breakpoint} {
         bottom: -$sm;
     }
-    .#{$prefix}pos-b-n-md {
+    .neg-md-b#{$breakpoint} {
         bottom: -$md;
     }
-    .#{$prefix}pos-b-n-lg {
+    .neg-bg-b#{$breakpoint} {
         bottom: -$lg;
     }
-    .#{$prefix}pos-b-n-xl {
+    .neg-xl-b#{$breakpoint} {
         bottom: -$xl;
     }
-    .#{$prefix}pos-b-n-xxl {
+    .neg-xxl-b#{$breakpoint} {
         bottom: -$xxl;
     }
 
