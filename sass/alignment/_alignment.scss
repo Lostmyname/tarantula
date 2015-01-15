@@ -4,31 +4,31 @@
      * Alignment
      */
 
-    .#{$prefix}aligned-left {
+    .#{$prefix}align-left {
         float: left;
     }
 
-    .#{$prefix}aligned-right {
+    .#{$prefix}align-right {
         float: right;
     }
 
-    .#{$prefix}aligned-none {
+    .#{$prefix}align-none {
         float: none;
     }
 
-    .#{$prefix}aligned-center {
+    .#{$prefix}align-center {
         margin: 0 auto;
     }
 
-    .#{$prefix}inline-aligned-center {
+    .#{$prefix}inline-align-center {
         text-align: center;
     }
 
-    .#{$prefix}inline-aligned-left {
+    .#{$prefix}inline-align-left {
         text-align: left;
     }
 
-    .#{$prefix}inline-aligned-right {
+    .#{$prefix}inline-align-right {
         text-align: right;
     }
 
