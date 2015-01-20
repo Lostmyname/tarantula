@@ -5,28 +5,28 @@
      */
 
     .no-bor#{$breakpoint} {
-        border: 0;
+        border-width: 0;
     }
     .xxs-bor#{$breakpoint} {
-        border: $border-xxs;
+        border-width: $border-xxs;
     }
     .xs-bor#{$breakpoint} {
-        border: $border-xs;
+        border-width: $border-xs;
     }
     .sm-bor#{$breakpoint} {
-        border: $border-sm;
+        border-width: $border-sm;
     }
     .md-bor#{$breakpoint} {
-        border: $border-md;
+        border-width: $border-md;
     }
     .lg-bor#{$breakpoint} {
-        border: $border-lg;
+        border-width: $border-lg;
     }
     .xl-bor#{$breakpoint} {
-        border: $border-xl;
+        border-width: $border-xl;
     }
     .xxl-bor#{$breakpoint} {
-        border: $border-xxl;
+        border-width: $border-xxl;
     }
 
 
@@ -35,83 +35,83 @@
 
 
     .no-bor-l#{$breakpoint} {
-        border-left: 0;
+        border-left-width: 0;
     }
     .xxs-bor-l#{$breakpoint} {
-        border-left: $border-xxs;
+        border-left-width: $border-xxs;
     }
     .xs-bor-l#{$breakpoint} {
-        border-left: $border-xs;
+        border-left-width: $border-xs;
     }
     .sm-bor-l#{$breakpoint} {
-        border-left: $border-sm;
+        border-left-width: $border-sm;
     }
     .md-bor-l#{$breakpoint} {
-        border-left: $border-md;
+        border-left-width: $border-md;
     }
     .lg-bor-l#{$breakpoint} {
-        border-left: $border-lg;
+        border-left-width: $border-lg;
     }
     .xl-bor-l#{$breakpoint} {
-        border-left: $border-xl;
+        border-left-width: $border-xl;
     }
     .xxl-bor-l#{$breakpoint} {
-        border-left: $border-xxl;
+        border-left-width: $border-xxl;
     }
 
 
 
     .no-bor-t#{$breakpoint} {
-        border-top: 0;
+        border-top-width: 0;
     }
     .xxs-bor-t#{$breakpoint} {
-        border-top: $border-xxs;
+        border-top-width: $border-xxs;
     }
     .xs-bor-t#{$breakpoint} {
-        border-top: $border-xs;
+        border-top-width: $border-xs;
     }
     .sm-bor-t#{$breakpoint} {
-        border-top: $border-sm;
+        border-top-width: $border-sm;
     }
     .md-bor-t#{$breakpoint} {
-        border-top: $border-md;
+        border-top-width: $border-md;
     }
     .lg-bor-t#{$breakpoint} {
-        border-top: $border-lg;
+        border-top-width: $border-lg;
     }
     .xl-bor-t#{$breakpoint} {
-        border-top: $border-xl;
+        border-top-width: $border-xl;
     }
     .xxl-bor-t#{$breakpoint} {
-        border-top: $border-xxl;
+        border-top-width: $border-xxl;
     }
 
 
 
 
     .no-bor-r#{$breakpoint} {
-        border-right: 0;
+        border-right-width: 0;
     }
     .xxs-bor-r#{$breakpoint} {
-        border-right: $border-xxs;
+        border-right-width: $border-xxs;
     }
     .xs-bor-r#{$breakpoint} {
-        border-right: $border-xs;
+        border-right-width: $border-xs;
     }
     .sm-bor-r#{$breakpoint} {
-        border-right: $border-sm;
+        border-right-width: $border-sm;
     }
     .md-bor-r#{$breakpoint} {
-        border-right: $border-md;
+        border-right-width: $border-md;
     }
     .lg-bor-r#{$breakpoint} {
-        border-right: $border-lg;
+        border-right-width: $border-lg;
     }
     .xl-bor-r#{$breakpoint} {
-        border-right: $border-xl;
+        border-right-width: $border-xl;
     }
     .xxl-bor-r#{$breakpoint} {
-        border-right: $border-xxl;
+        border-right-width: $border-xxl;
     }
 
 
@@ -119,28 +119,28 @@
 
 
     .no-bor-b#{$breakpoint} {
-        border-bottom: 0;
+        border-bottom-width: 0;
     }
     .xxs-bor-b#{$breakpoint} {
-        border-bottom: $border-xxs;
+        border-bottom-width: $border-xxs;
     }
     .xs-bor-b#{$breakpoint} {
-        border-bottom: $border-xs;
+        border-bottom-width: $border-xs;
     }
     .sm-bor-b#{$breakpoint} {
-        border-bottom: $border-sm;
+        border-bottom-width: $border-sm;
     }
     .md-bor-b#{$breakpoint} {
-        border-bottom: $border-md;
+        border-bottom-width: $border-md;
     }
     .lg-bor-b#{$breakpoint} {
-        border-bottom: $border-lg;
+        border-bottom-width: $border-lg;
     }
     .xl-bor-b#{$breakpoint} {
-        border-bottom: $border-xl;
+        border-bottom-width: $border-xl;
     }
     .xxl-bor-b#{$breakpoint} {
-        border-bottom: $border-xxl;
+        border-bottom-width: $border-xxl;
     }
 
 
