@@ -1,6 +1,6 @@
 {
   "name": "lmn.tarantula",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "SCSS layout helpers",
   "author": "barneyfoxuk",
   "main": "sass/_tarantula.scss",
