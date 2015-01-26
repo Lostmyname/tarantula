@@ -18,6 +18,13 @@
   box-sizing: border-box;
 }
 
+
+.container-xl {
+  max-width: $break-lg + 200;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   max-width: $break-lg - 20;
   margin-right: auto;
