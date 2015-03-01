@@ -1,5 +1,13 @@
 @mixin border($breakpoint) {
 
+    .bor-style-solid#{$breakpoint} {
+        border-style: solid;
+    }
+
+    .bor-style-dashed#{$breakpoint} {
+        border-style: dashed;
+    }
+
     /*
      * border helpers
      */
@@ -31,9 +39,6 @@
 
 
 
-
-
-
     .no-bor-l#{$breakpoint} {
         border-left-width: 0;
     }
@@ -60,7 +65,6 @@
     }
 
 
-
     .no-bor-t#{$breakpoint} {
         border-top-width: 0;
     }
@@ -85,7 +89,6 @@
     .xxl-bor-t#{$breakpoint} {
         border-top-width: $border-xxl;
     }
-
 
 
 
