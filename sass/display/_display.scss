@@ -32,5 +32,10 @@
         height: 100%;
     }
 
+    .auto-width#{$breakpoint} {
+        width: auto;
+    }
+
+
 
 }
