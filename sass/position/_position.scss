@@ -26,6 +26,9 @@
     .no-l#{$breakpoint} {
         left: 0;
     }
+    .init-l#{$breakpoint} {
+        left: initial;
+    }
     .xxs-l#{$breakpoint} {
         left: $xxs;
     }
@@ -73,6 +76,9 @@
 
     .no-t#{$breakpoint} {
         top: 0;
+    }
+    .init-t#{$breakpoint} {
+        top: initial;
     }
     .xxs-t#{$breakpoint} {
         top: $xxs;
@@ -124,6 +130,9 @@
     .no-r#{$breakpoint} {
         right: 0;
     }
+    .init-r#{$breakpoint} {
+        right: initial;
+    }
     .xxs-r#{$breakpoint} {
         right: $xxs;
     }
@@ -174,6 +183,9 @@
 
     .no-b#{$breakpoint} {
         bottom: 0;
+    }
+    .init-bottom#{$breakpoint} {
+        bottom: initial;
     }
     .xxs-b#{$breakpoint} {
         bottom: $xxs;
