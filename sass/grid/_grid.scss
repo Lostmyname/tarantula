@@ -110,6 +110,28 @@
   }
 }
 
+// A replacement for the container-[size]-pad classes
+// place this class on the .row
+
+.cols-spaced-sm {
+  margin-left: -5px;
+  margin-right: -5px;
+
+  & > * {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.cols-spaced-xs {
+  margin-left: -2px;
+  margin-right: -2px;
+
+  & > * {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
 
 /*
  * Default i.e. desktop layout
@@ -599,7 +621,7 @@
 @media only screen and (max-width: $break-xs) {
   //default to stacked on mobile portrait
   .col {
-    width: 100%; 
+    width: 100%;
   }
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
@@ -761,7 +783,7 @@
 
 
 
- 
+
 
 
 
