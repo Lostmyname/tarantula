@@ -144,7 +144,7 @@
 }
 
 @mixin rows-spaced($_gutter) {
-  & > .row {
+  & > * {
     padding-bottom: $_gutter;
 
     &:last-child {
