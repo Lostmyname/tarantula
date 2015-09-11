@@ -114,26 +114,21 @@
 // place this class on the .row
 
 @mixin cols-spaced($_gutter) {
-  margin-left: -($_gutter);
-  margin-right: -($_gutter);
+  margin-left: -($_gutter/2);
+  margin-right: -($_gutter/2);
 
   & > * {
-    padding-left: $_gutter;
-    padding-right: $_gutter;
+    padding-left: $_gutter/2;
+    padding-right: $_gutter/2;
   }
 }
 
-
-.cols-spaced {
-  @include cols-spaced(10px);
+.cols-spaced-md {
+  @include cols-spaced(20px);
 }
 
 .cols-spaced-sm {
-  @include cols-spaced(5px);
-}
-
-.cols-spaced-xs {
-  @include cols-spaced(2px);
+  @include cols-spaced(10px);
 }
 
 // Add space *between* rows
@@ -153,11 +148,15 @@
   }
 }
 
-.rows-spaced {
-  @include rows-spaced(10px);
+.rows-spaced-md {
+  @include rows-spaced(20px);
 }
 
 .rows-spaced-sm {
+  @include rows-spaced(10px);
+}
+
+.rows-spaced-xs {
   @include rows-spaced(5px);
 }
 
