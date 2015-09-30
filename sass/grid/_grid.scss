@@ -131,6 +131,14 @@
   @include cols-spaced(10px);
 }
 
+
+// created specifically for the gender switch
+@media (min-width: 769px) and (max-width: 992px) {
+  .cols-spaced-md-on-md-only {
+    @include cols-spaced(20px);
+  }
+}
+
 // Add space *between* rows
 // Can be used on any block element (in fact, it is, so don't change to > .row)
 
